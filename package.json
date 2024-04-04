@@ -1,5 +1,6 @@
 {
   "name": "benjaminschulzcounselling",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "source": "index.html",
   "version": "1.0.0",
   "dependencies": {
@@ -362,7 +363,6 @@
     "ora": "^2.1.0",
     "os-browserify": "^0.3.0",
     "pako": "^1.0.11",
-    "parcel-bundler": "^1.12.5",
     "parse-asn1": "^5.1.7",
     "parse-json": "^4.0.0",
     "parse5": "^5.1.1",
@@ -578,15 +578,23 @@
     "yallist": "^3.1.1"
   },
   "devDependencies": {
-    "parcel": "latest"
+    "parcel": "^2.12.0"
   },
   "scripts": {
-      "start": "parcel",
-      "build": "parcel build",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-optimize",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+    "targets": {
+      "default": {
+        "includeNodeModules": true
+      }
+    },
+    "engines": {
+      "node": "10"
+    }
 }
