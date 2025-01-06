@@ -1,12 +1,11 @@
 {
   "name": "benjaminschulzcounselling",
   "version": "1.0.0",
-  "description": "",
   "main": "index.13555085.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "build":"parcel build index.html"
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -20,5 +19,8 @@
   "homepage": "https://github.com/vivi-su/benjaminschulzcounselling#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
-  }
+  },
+  "dependencies": {},
+  "keywords": [],
+  "description": ""
 }
