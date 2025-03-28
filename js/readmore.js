@@ -1,5 +1,5 @@
 
-      function toggleAll() {
+function toggleAll() {
   var contents = document.querySelectorAll(".content");
   var buttons = document.querySelectorAll(".read-more");
 
