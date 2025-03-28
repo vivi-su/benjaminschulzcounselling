@@ -1042,6 +1042,7 @@
     <script src="js/main.js"></script>
     <script src="js/webp.js"></script>
     <script src="js/carousel.js"></script>
+    <script src="js/readmore.js?v=2" defer></script>
     
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -1070,25 +1071,6 @@
       }
     </script>
 
-    <script>
-      function toggleAll() {
-  var contents = document.querySelectorAll(".content");
-  var buttons = document.querySelectorAll(".read-more");
-
-  let isHidden = Array.from(contents).some(
-    (content) =>
-      content.style.display === "none" || content.style.display === ""
-  );
-
-  contents.forEach((content) => {
-    content.style.display = isHidden ? "block" : "none";
-  });
-
-  buttons.forEach((button) => {
-    button.textContent = isHidden ? "Show Less" : "Read More";
-  });
-}
-
-    </script>
+    
   </body>
 </html>
