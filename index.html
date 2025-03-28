@@ -45,11 +45,22 @@
       rel="stylesheet"
     />
 
-    <script
-      src="https://kit.fontawesome.com/2b43a8c685.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/png" />
+<!-- Standard Favicon -->
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+<!-- Apple Touch Icon (iPhones & iPads) -->
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<!-- Android & Chrome Icons -->
+<link rel="icon" type="image/png" sizes="192x192" href="/images/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/images/android-chrome-512x512.png">
+
+
+
+  <script
+      src="https://kit.fontawesome.com/2b43a8c685.js" crossorigin="anonymous"></script>
 
     <!-- GSAP Core Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -164,16 +175,11 @@
         <article class="container--small">
           <h2>Direct Billing for Select Insurers</h2>
           <p>
-            We offer direct billing for select insurers — including major
-            providers like <span class="bold">Canada Life</span>,
-            <span class="bold">Manulife</span>,
-            <span class="bold">Green Shield </span>, <a href="https://plus.telushealth.co/page/eclaims/help/insurer_coverage_html/Insurer_coverage_table.html" target="_blank"
-              rel="noopener">click here</a> to view other insurers — as well as for
-            services such as Autism Funding and the Crime Victims Assistance
-            Program (CVAP).
+            We offer direct billing for select insurers, including major providers like Canada Life, Manulife, and Green Shield.  <a class="text__link" href="https://plus.telushealth.co/page/eclaims/help/insurer_coverage_html/Insurer_coverage_table.html" target="_blank"
+              rel="noopener">View the full list of eligible insurers</a> to see if yours is covered. We also offer direct billing for services such as Autism Funding and the Crime Victims Assistance Program (CVAP).
           </p>
           <p>
-            Have questions? Contact us to check if direct billing is available
+            Have questions?<a class="text__link" href="#contact"> Contact us </a>to check if direct billing is available
             for your plan.
           </p>
 
@@ -889,7 +895,8 @@
                   <label for="email" class="form-label">Email*</label>
                   <input
                     class="form-control"
-                    name="mail"
+                    id="email"
+                    name="email"
                     type="email"
                     placeholder="Your email"
                     minlength="5"
@@ -901,6 +908,7 @@
                   <label for="phone" class="form-label">Phone Number</label>
                   <input
                     class="form-control"
+                    id="phone"
                     name="phone"
                     type="tel"
                     placeholder="Your phone number"
@@ -913,6 +921,7 @@
                 <label for="message" class="form-label">Message</label>
                 <textarea
                   class="form-control form-control-message form-group"
+                  id="message"
                   name="message"
                   placeholder="Please let us know what is on your mind. Have a question for us? Ask away."
                   minlength="3"
