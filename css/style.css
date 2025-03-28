@@ -324,6 +324,8 @@ p,li{
 /* hero */
 
 .hero-star img{
+    width:260px;
+    height:auto;
     padding-right:1rem;
 }
 
