@@ -1,5 +1,0 @@
-const $5001040b0145e1ac175650f96e2e134b$var$collapsibles = document.querySelectorAll(".collapsible");
-$5001040b0145e1ac175650f96e2e134b$var$collapsibles.forEach((item)=>item.addEventListener("click", function() {
-        this.classList.toggle("collapsible--expanded");
-    })
-);

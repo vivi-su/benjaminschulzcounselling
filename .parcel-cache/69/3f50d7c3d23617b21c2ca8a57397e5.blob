@@ -1,6 +1,0 @@
-window.dataLayer = window.dataLayer || [];
-function $72b7c4c3bb36b1001288fedcb50c56ab$var$gtag() {
-    dataLayer.push(arguments);
-}
-$72b7c4c3bb36b1001288fedcb50c56ab$var$gtag('js', new Date());
-$72b7c4c3bb36b1001288fedcb50c56ab$var$gtag('config', 'UA-163947597-2');

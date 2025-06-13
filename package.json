@@ -1,8 +1,7 @@
 {
   "name": "benjaminschulzcounselling",
   "version": "1.0.0",
-  "main": "index.13555085.js",
-  "scripts": {
+ "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
     "build": "parcel build index.html --public-url ./"
@@ -18,11 +17,18 @@
   },
   "homepage": "https://github.com/vivi-su/benjaminschulzcounselling#readme",
   "devDependencies": {
-    "parcel": "^2.15.2"
+    "@parcel/transformer-postcss": "^2.15.2",
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.0.7",
+    "npm-force-resolutions": "^0.0.10",
+    "parcel": "^2.15.2",
+    "postcss": "^8.5.5",
+    "postcss-import": "^16.1.0"
   },
   "dependencies": {
     "gsap": "^3.12.7"
   },
   "keywords": [],
-  "description": ""
+  "description": "",
+  "type": "commonjs"
 }

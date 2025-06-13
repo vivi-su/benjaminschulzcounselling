@@ -1,6 +1,0 @@
-(function() {
-    var o;
-    AOS.init(), o = document.getElementById("back-to-top"), window.onscroll = function() {
-        document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ? o.style.display = "block" : o.style.display = "none";
-    };
-})();

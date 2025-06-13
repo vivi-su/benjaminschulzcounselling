@@ -1,2 +1,0 @@
-document.querySelectorAll(".collapsible").forEach((e=>e.addEventListener("click",(function(){this.classList.toggle("collapsible--expanded")}))));
-//# sourceMappingURL=index.HASH_REF_0b6e068780a30c8cab539967955fa8b1.js.map

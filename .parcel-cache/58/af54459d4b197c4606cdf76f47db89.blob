@@ -1,9 +1,0 @@
-(async ()=>{
-    const A = await new Promise((A1)=>{
-        const o = new Image;
-        o.src = "data:image/webp;base64,UklGRkAAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAIAAAAAAFZQOCAYAAAAMAEAnQEqAQABAAFAJiWkAANwAP79NmgA", o.onerror = (o1)=>A1(false)
-        , o.onload = (o1)=>A1(true)
-        ;
-    });
-    console.log("this browser supports webp images:", A), A || document.body.classList.add("no-webp");
-})();
